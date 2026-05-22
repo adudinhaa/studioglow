@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Agendamento | Studio Glow</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="logo">
+      Studio Glow
+    </div>
+
+    <div class="header-right">
+
+      <nav id="menu">
+
+        <a href="index.html">Início</a>
+
+        <a href="servicos.html">Serviços</a>
+
+        <a href="agendamento.html">Agendamento</a>
+
+        <a href="contato.html">Contato</a>
+
+      </nav>
+
+      <button class="menu-btn" id="menu-btn">
+        ☰
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="booking-hero">
+
+    <div class="booking-hero-content">
+
+      <span class="mini-title">
+        STUDIO GLOW
+      </span>
+
+      <h1>
+        Agende seu momento de cuidado
+      </h1>
+
+      <p>
+        Escolha o serviço desejado e reserve seu horário com praticidade.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- FORM -->
+
+  <section class="booking-section">
+
+    <div class="booking-card">
+
+      <h2>
+        Fazer agendamento
+      </h2>
+
+      <form id="form">
+
+        <div class="input-group">
+
+          <label>
+            Nome
+          </label>
+
+          <input
+            type="text"
+            id="nome"
+            placeholder="Digite seu nome"
+            required>
+
+        </div>
+
+        <div class="input-group">
+
+          <label>
+            Serviço
+          </label>
+
+          <select id="servico">
+
+            <option>
+              Escolha um serviço
+            </option>
+
+            <option>
+              Unhas
+            </option>
+
+            <option>
+              Sobrancelhas
+            </option>
+
+            <option>
+              Extensão de cílios
+            </option>
+
+            <option>
+              Limpeza de pele
+            </option>
+
+            <option>
+              Depilação facial
+            </option>
+
+            <option>
+              Revitalização labial
+            </option>
+
+          </select>
+
+        </div>
+
+        <div class="form-row">
+
+          <div class="input-group">
+
+            <label>
+              Data
+            </label>
+
+            <input
+              type="date"
+              id="data"
+              required>
+
+          </div>
+
+          <div class="input-group">
+
+            <label>
+              Horário
+            </label>
+
+            <input
+              type="time"
+              id="hora"
+              required>
+
+          </div>
+
+        </div>
+
+        <div class="input-group">
+
+          <label>
+            Observações
+          </label>
+
+          <textarea
+            id="obs"
+            placeholder="Escreva alguma observação se desejar"></textarea>
+
+        </div>
+
+        <button class="btn booking-btn" type="submit">
+
+          Enviar para WhatsApp
+
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- WHATSAPP -->
+
+  <a href="#" class="whatsapp">
+    WhatsApp
+  </a>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
