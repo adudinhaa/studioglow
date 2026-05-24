@@ -31,16 +31,21 @@ header{
 
   z-index:1000;
 
-  background:rgba(255,255,255,0.75);
+  background:rgba(255,255,255,0.58);
 
-  backdrop-filter:blur(12px);
+backdrop-filter:blur(18px);
 
-  border-bottom:1px solid rgba(212,175,55,0.15);
+-webkit-backdrop-filter:blur(18px);
+
+border-bottom:1px solid rgba(255,255,255,0.15);
 }
 
 .logo{
-  font-size:24px;
+  font-size:28px;
   font-weight:700;
+
+  letter-spacing:-1px;
+
   color:#d4af37;
 }
 
@@ -79,8 +84,8 @@ nav a:hover{
 
   background:
   linear-gradient(
-    rgba(0,0,0,0.45),
-    rgba(0,0,0,0.45)
+    rgba(0,0,0,0.30),
+    rgba(0,0,0,0.30)
   ),
 
   url("https://i.pinimg.com/736x/4e/79/0a/4e790a68430c2df439ce076436df4308.jpg");
@@ -103,17 +108,28 @@ nav a:hover{
 }
 
 .hero h1{
-  font-size:64px;
-  line-height:1.1;
-  margin-bottom:24px;
+  font-size:58px;
+  line-height:1.05;
+  margin-bottom:26px;
+
   font-weight:700;
+
+  max-width:1000px;
+
+  letter-spacing:-2px;
 }
 
 .hero p{
-  font-size:18px;
+  font-size:19px;
   line-height:1.8;
   margin-bottom:40px;
+
   color:rgba(255,255,255,0.9);
+
+  max-width:760px;
+
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* BUTTON */
@@ -131,7 +147,7 @@ nav a:hover{
 
   border:none;
 
-  border-radius:50px;
+  border-radius:18px;
 
   text-decoration:none;
 
@@ -155,9 +171,11 @@ section{
 }
 
 h2{
-  font-size:42px;
+  font-size:46px;
   margin-bottom:24px;
   color:#3b3b3b;
+  line-height:1.1;
+  letter-spacing:-1px;
 }
 
 section p{
@@ -331,7 +349,7 @@ footer{
 }
 
 ::-webkit-scrollbar-track{
-  background:#fff9fb;
+  background:background:#fcfaf7;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -373,8 +391,10 @@ footer{
     display:flex;
   }
 
-  .hero h1{
-    font-size:42px;
+ .hero h1{
+  font-size:38px;
+
+  line-height:1.1;
   }
 
   .about{
