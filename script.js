@@ -48,7 +48,7 @@ ${hora}
 Observações:
 ${obs}`;
 
-    const telefone = "5548999999999";
+    const telefone = "5548991823784";
 
     const url =
 `https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`;
